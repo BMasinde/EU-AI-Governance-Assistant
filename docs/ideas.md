@@ -23,6 +23,6 @@ Vector Database:
 Query API/User Interface:
 *Shiny* because I like it!
 
-Programming Language
+Programming Language:
 *Python* 
 
