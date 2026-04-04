@@ -279,7 +279,7 @@ app_ui = ui.page_fillable(
             ui.div(
                 ui.p(ui.strong("Hey, I am AIGov!")),
                 ui.p(
-                    """I can help you better understand AI Governance Regulation. Before I can do that, I need some information about... ."""
+                    """I can help you better understand AI Governance Regulation. Before I can do that, I need some information about your AI System."""
                 ),
             ),
             ui.input_file(
@@ -290,23 +290,23 @@ app_ui = ui.page_fillable(
             ),
             ui.input_text_area(
                 "audience",
-                "Describe your audience",
+                "Describe your concerns",
                 height="150px",
-                placeholder="e.g. Python and R users who are curious about AI and large language models, but not all of them have a deep technical background",
+                placeholder="e.g. What is the risk category of my AI system...",
             ),
-            ui.input_numeric(
-                "length", "Time cap for the presentation (minutes)", value=10, min=1
-            ),
+            #ui.input_numeric(
+            #    "length", "Time cap for the presentation (minutes)", value=10, min=1
+            #),
             ui.input_text(
                 "type",
-                "Type of talk",
-                placeholder="e.g. lightning talk, workshop, or keynote",
+                "Type of Regulation",
+                placeholder="e.g. GDPR, EU AI Act, Digital Serives Act",
             ),
-            ui.input_text("event", "Event name", placeholder="e.g. posit::conf(2025)"),
+            ui.input_text("event", "Industry", placeholder="e.g. Financial Services"),
             ui.input_task_button(
                 "submit",
                 icon=ui.HTML(robot),
-                label="Analyse presentation",
+                label="Analyse",
             ),
             width=400,
         ),
