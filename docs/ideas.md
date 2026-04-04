@@ -11,7 +11,8 @@ layer (idea still being developed) which can take the following actions:
 
     * Analayze obligations for various persons in an organization.
     * Compare regulatory requirements for a particular use case; across the 
-    various regulations.
+    various regulations. It would be nice if it can identify potential conflicts
+    in requirements.
     * Trace definitions or how terms are used among the various regulations.
 
 ## Tech Stack
